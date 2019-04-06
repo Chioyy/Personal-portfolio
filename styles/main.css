@@ -1,0 +1,172 @@
+html {
+  text-align: center;
+  margin-top: -2.3%;
+  margin-left: -1%;
+  font-size: calc(9px + 0.8vw);
+  background: #393939;
+}
+
+#main {
+  text-align: center;
+  margin-left: auto;
+  margin-right: -1%;
+  margin-top: 150px;
+  background: #393939;
+  font-family: 'Nunito', sans-serif;
+}
+
+#navbar {
+  height: 230px;
+  width: 100%;
+  margin-top: -150px;
+  position: fixed;
+  background: #ec7f37;
+}
+
+#navlink {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: -1vw 10% 10% 10%;
+  font-family: 'Dosis', sans-serif;
+}
+
+#flexcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+a {
+  color: #e0bfab;
+}
+
+.nav-link {
+  color: #261306;
+  font-size: 130%;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  color: #FF5A09;
+  font-size: 130%;
+}
+
+#welcome-section {
+  width: 90vw;
+  height: 40vw;
+  margin-top: 15vw;
+}
+
+#webdevelopment {
+  width: 45vw;
+  height: 20vw;
+}
+
+#programming {
+  width: 45vw;
+  height: 50vw;
+}
+
+#projects {
+  width: 45vw;
+  height: 30vw;
+}
+
+#boardcard {
+  width: 45vw;
+  height: 35vw;
+}
+
+#games {
+  width: 45vw;
+  height: 50vw;
+}
+
+#portfolio {
+  color: #000000;
+  font-size: 200%;
+  margin-top: 70px;
+}
+
+#name {
+  color: #e6bb9b;
+  font-size: 200%;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  color: #ec7f37;
+  font-family: 'Oxygen', sans-serif;
+  }
+
+p, li {
+  color: #e0bfab;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #main {
+    text-align: center;
+    margin-left: auto;
+    margin-right: -1%;
+    margin-top: 150px;
+    background: #393939;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  #navbar {
+    height: 150px;
+    width: 100%;
+    margin-top: -150px;
+    position: fixed;
+    background: #ec7f37;
+  }
+  
+  #portfolio {
+    color: #000000;
+    font-size: 200%;
+    margin-top: 20px;
+  }
+  
+  #welcome-section {
+    width: 90vw;
+    height: 60vw;
+    margin-top: 15vw;
+  }
+
+  #webdevelopment {
+    width: 90vw;
+    height: 40vw;
+  }
+
+  #programming {
+    width: 90vw;
+    height: 120vw;
+  }
+
+  #projects {
+    width: 90vw;
+    height: 60vw;
+  }
+
+  #boardcard {
+    width: 90vw;
+    height: 90vw;
+  }
+
+  #games {
+    width: 90vw;
+    height: 110vw;
+  }
+}
